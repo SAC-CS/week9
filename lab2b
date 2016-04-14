@@ -10,7 +10,7 @@ Scanner scan = new Scanner(System.in);
 System.out.println("Enter a number : ");
 Int highnumber =Integer.parseInt();
 
-
+RandomNumber RNumber = new RandomNumber();
 RNumber.DisplayNumber(highnumber);
 
 
