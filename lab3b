@@ -1,0 +1,23 @@
+import java.util.Scanner; 
+import java.util.Random;
+
+public class  RandomNumberTest
+{ 
+public static void main(String[] args) 
+{ 
+Scanner scan = new Scanner(System.in); 
+
+System.out.println("Enter a low number : ");
+Int Low =Integer.parseInt();
+System.out.println("Enter a high number : ");
+Int High =Integer.parseInt();
+
+RandomNumber RNumber = new RandomNumber();
+RNumber.DisplayNumber(Low,High);
+
+
+
+}
+
+}
+ 
