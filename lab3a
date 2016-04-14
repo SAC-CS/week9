@@ -1,0 +1,21 @@
+import java.util.Scanner; 
+import java.util.Random;
+
+
+public class RandomNumber
+{
+public void DisplayNumber(int Low, int High )
+{
+ Scanner scan = new Scanner(System.in); 
+    Random generator = new Random(); 
+
+
+computerInt = generator.nextInt(High-Low) + Low;
+
+
+ message = String .format("A random number is %d\n" ,computerInt);
+    JOption.showMessageDialog(null,message); 
+
+}
+
+}
