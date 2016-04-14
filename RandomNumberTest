@@ -1,0 +1,14 @@
+public class  RandomNumberTest
+{ 
+public static void main(String[] args) 
+{ 
+
+RandomNumber RNumber = new RandomNumber();
+
+
+RNumber.DisplayNumber();
+
+
+}
+
+}
