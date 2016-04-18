@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Game {
+  private Player p1;         
+  private Player p2;         
+  Scanner scan = new Scanner(System.in);
+ public Game(){
+ p1 = new Player(1);
+  p2 = new Player(0);
+ }
+ public void play()
+ {
+ p1.play();
+ p2.play();
+ }
+
+}
