@@ -41,3 +41,5 @@ public class Player{
 }
 
 }
+
+// You need an object to create the random number, An.
